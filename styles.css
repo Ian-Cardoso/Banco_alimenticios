@@ -1,0 +1,117 @@
+body {
+    font-family: sans-serif, Arial;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #6AAFFD;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+hr{
+    height: 3px;
+    background-color: #6AAFFD;
+}
+
+h3 {
+    color: #555;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+section {
+   
+    transform: translateY(10px);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+section:hover {
+    transform: translateY(0);
+}
+
+section:hover strong{
+    color: #6AAFFD;
+    transition: 0.8s;
+
+}
+
+section:hover h3{
+    color: #6AAFFD;
+    transition: 0.8s;
+}
+
+section:hover p{
+    font-weight: bold;
+    transition: 0.8s;
+}
+
+section:hover li{
+    font-weight: bold;
+    transition: 0.8s;
+}
+
+nav{
+    height: 10vh;
+    background-color: #6AAFFD;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+i{
+    font-size: 30px;
+    color: rgb(51, 49, 49);
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+i:hover{
+    transform: translateY(-10px);
+    transition: 0.6s ease-in-out;
+    color: black;
+}
+
+button {
+    padding: 10px 15px; 
+    background-color: white; 
+    color: #6AAFFD; 
+    border: none; 
+    border-radius: 5px;
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+
